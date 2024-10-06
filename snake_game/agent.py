@@ -1,6 +1,6 @@
 import torch ## import torch
-import random
-import numpy as np
+import random 
+import numpy as np ## import numpy for mathematical operations
 from collections import deque
 from game import SnakeGameAI, Direction, Point
 from model import Linear_QNet, QTrainer
